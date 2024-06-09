@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px; /* Increase max-width */
+  margin: 40px auto; /* Increase margin */
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Increase shadow */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.course0{
+ 
+  width: 110%;
+  padding: 20px;
+
+}
+.course0 .menu{
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.menu .logo{
+  display: inline-block;
+  width: 100px;
+  height: auto;
+  margin-left: -150px;
+  font-size: 3rem;
+  font-weight: 600;
+  vertical-align: middle;
+  
+}
+
+.menu .menu-links{
+  display: flex;
+  gap: 40px;
+}
+
+.menu .logo span{
+  color:cadetblue;
+}
+.menu a {
+  color: #000000;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+.menu a-hover {
+  color: #6390c0;
+}
+
+
+
+.menu ul li{
+  display:inline-block;
+  margin-left: 20px;
+
+}
+
+.menu ul li a{
+  display: block;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 20px;
+}
+
+.menu ul li a:hover{
+  background-color: rgb(255, 191, 0);
+  transform: scale(1.1);
+  border-radius: 60px;
+  
+}
+
+.menu ul li a.active {
+  background-color: rgb(255, 191, 0);
+  color: #fff;
+  border-radius: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.course1 {
+  margin-top: 10vh;
+  background-color: rgb(247, 255, 230);;
+  color: #000000;
+  padding: 30px; /* Increase padding */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-bookmark {
+  position: relative;
+}
+
+.icon-bookmark svg {
+  width: 36px; /* Increase SVG size */
+  height: 36px; /* Increase SVG size */
+}
+
+.icon-bookmark span {
+  position: absolute;
+  top: -12px; /* Increase top position */
+  right: -12px; /* Increase right position */
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  color: #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px; /* Increase font size */
+}
+
+h1 {
+  font-size: 36px; /* Increase font size */
+  font-weight: bold;
+}
+
+.listProduct {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Increase minimum width */
+  gap: 40px; /* Increase gap */
+  padding: 40px; /* Increase padding */
+}
+
+.listProduct .item {
+  background-color: #fff;
+  padding: 40px; /* Increase padding */
+  border-radius: 20px; /* Increase border radius */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.listProduct .item img {
+  width: 100%;
+  height: 200px; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure the entire container is filled with the image */
+  border-radius: 20px;
+}
+
+.listProduct .item h2 {
+  font-size: 27px; /* Increase font size */
+  margin-top: 20px; /* Increase margin */
+}
+
+.listProduct .item .price {
+  font-size: 20px; /* Increase font size */
+  color: rgb(255, 191, 0);
+  margin-top: 15px; /* Increase margin */
+}
+
+.listProduct .item button {
+  background-color:rgb(255, 191, 0);
+  color: #fff;
+  border: none;
+  padding: 15px 30px; /* Increase padding */
+  border-radius: 10px; /* Increase border radius */
+  cursor: pointer;
+  margin-top: 20px; /* Increase margin */
+}
+
+.courseTab {
+  position: fixed;
+  top: 0;
+  right: -600px; /* Increase right position */
+  background-color: #fff;
+  height: 100%;
+  width: 600px; /* Increase width */
+  padding: 40px; /* Increase padding */
+  transition: right 0.5s ease-in-out;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: -5px 0 20px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.courseTab.show {
+  right: 0;
+}
+
+.courseTab h1 {
+  font-size: 36px; /* Increase font size */
+  font-weight: bold;
+  margin-bottom: 30px; /* Increase margin */
+}
+
+.listCourse {
+  overflow-y: auto;
+  max-height: calc(100% - 240px); /* Increase max height */
+}
+
+.listCourse .item {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+.listCourse .item img {
+  width: 100%;
+  height: 75px; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure the entire container is filled with the image */
+  border-radius: 50%;
+}
+
+.listCourse .item h3 {
+  font-size: 24px; /* Increase font size */
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.listCourse .item .quantity {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.listCourse .item .quantity span {
+  font-size: 30px; /* Increase font size */
+  padding: 0 15px; /* Increase padding */
+  cursor: pointer;
+}
+
+.listCourse .item .quantity span:first-child {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px; /* Increase margin */
+}
+
+.btn a {
+  background-color: #6390c0;
+  color: #fff;
+  padding: 20px 40px; /* Increase padding */
+  border-radius: 10px; /* Increase border radius */
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn a:hover {
+  background-color: #46739f;
+}
+
+.listProduct .item button:hover {
+  background-color: #ffd700; /* Change color on hover */
+  color: black; /* Change text color on hover */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect */
+}

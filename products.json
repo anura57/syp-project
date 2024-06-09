@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "COURSE 1",
+        "price": 200,
+        "image": "https://media.istockphoto.com/id/1464561980/photo/futuristic-central-processor-unit-powerful-quantum-cpu-on-pcb-motherboard-with-data-transfers.jpg?s=612x612&w=0&k=20&c=yV7dDXLo_FleX9VZJhW_CgjO6Q4cIJsC5MxuNuIs5WQ=" 
+    },
+    {
+        "id": 2,
+        "name": "COURSE 1",
+        "price": 200,
+        "image": "https://media.istockphoto.com/id/1464561980/photo/futuristic-central-processor-unit-powerful-quantum-cpu-on-pcb-motherboard-with-data-transfers.jpg?s=612x612&w=0&k=20&c=yV7dDXLo_FleX9VZJhW_CgjO6Q4cIJsC5MxuNuIs5WQ=" 
+    },
+    {
+        "id": 3,
+        "name": "COURSE 1",
+        "price": 200,
+        "image": "https://media.istockphoto.com/id/1464561980/photo/futuristic-central-processor-unit-powerful-quantum-cpu-on-pcb-motherboard-with-data-transfers.jpg?s=612x612&w=0&k=20&c=yV7dDXLo_FleX9VZJhW_CgjO6Q4cIJsC5MxuNuIs5WQ=" 
+    },
+    {
+        "id": 4,
+        "name": "COURSE 1",
+        "price": 200,
+        "image": "https://media.istockphoto.com/id/1464561980/photo/futuristic-central-processor-unit-powerful-quantum-cpu-on-pcb-motherboard-with-data-transfers.jpg?s=612x612&w=0&k=20&c=yV7dDXLo_FleX9VZJhW_CgjO6Q4cIJsC5MxuNuIs5WQ=" 
+    },
+    {
+        "id": 5,
+        "name": "COURSE 1",
+        "price": 200,
+        "image": "https://media.istockphoto.com/id/1464561980/photo/futuristic-central-processor-unit-powerful-quantum-cpu-on-pcb-motherboard-with-data-transfers.jpg?s=612x612&w=0&k=20&c=yV7dDXLo_FleX9VZJhW_CgjO6Q4cIJsC5MxuNuIs5WQ=" 
+    },
+    {
+        "id": 6,
+        "name": "COURSE 1",
+        "price": 200,
+        "image": "https://media.istockphoto.com/id/1464561980/photo/futuristic-central-processor-unit-powerful-quantum-cpu-on-pcb-motherboard-with-data-transfers.jpg?s=612x612&w=0&k=20&c=yV7dDXLo_FleX9VZJhW_CgjO6Q4cIJsC5MxuNuIs5WQ=" 
+    },
+    {
+        "id": 7,
+        "name": "COURSE 1",
+        "price": 200,
+        "image": "https://media.istockphoto.com/id/1464561980/photo/futuristic-central-processor-unit-powerful-quantum-cpu-on-pcb-motherboard-with-data-transfers.jpg?s=612x612&w=0&k=20&c=yV7dDXLo_FleX9VZJhW_CgjO6Q4cIJsC5MxuNuIs5WQ=" 
+    },
+    {
+        "id": 8,
+        "name": "COURSE 1",
+        "price": 200,
+        "image": "https://media.istockphoto.com/id/1464561980/photo/futuristic-central-processor-unit-powerful-quantum-cpu-on-pcb-motherboard-with-data-transfers.jpg?s=612x612&w=0&k=20&c=yV7dDXLo_FleX9VZJhW_CgjO6Q4cIJsC5MxuNuIs5WQ=" 
+    }
+
+
+]

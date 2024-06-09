@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing:border-box;
+
+}
+
+body{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/*navigation bar*/
+
+
+.course0{
+ 
+    width: 110%;
+    padding: 20px;
+  
+  }
+  .course0 .menu{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  
+  .menu .logo{
+    display: inline-block;
+    width: 100px;
+    height: auto;
+    margin-left: -150px;
+    font-size: 3rem;
+    font-weight: 600;
+    vertical-align: middle;
+    
+  }
+  
+  .menu .menu-links{
+    display: flex;
+    gap: 40px;
+  }
+  
+  .menu .logo span{
+    color:cadetblue;
+  }
+  .menu a {
+    color: #000000;
+    text-decoration: none;
+    transition: 0.2s ease;
+  }
+  .menu a-hover {
+    color: #6390c0;
+  }
+  
+  
+  
+  .menu ul li{
+    display:inline-block;
+    margin-left: 20px;
+  
+  }
+  
+  .menu ul li a{
+    display: block;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  .menu ul li a:hover{
+    background-color: rgb(255, 191, 0);
+    transform: scale(1.1);
+    border-radius: 60px;
+    
+  }
+  
+  .menu ul li a.active {
+    background-color: rgb(255, 191, 0);
+    color: #fff;
+    border-radius: 60px;
+  }
+
+.container {
+    max-width: 400px;
+    margin-top: 20vh;
+    margin-left: 80vh;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 22px); /* Adjusted width to match */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: rgb(255, 191, 0);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 191, 0);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(255, 191, 0);
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+a {
+    color: rgb(255, 191, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
