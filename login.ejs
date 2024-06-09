@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <header class="course0">
+        <nav class="menu">
+          <a href="/" class="logo">LIFT<span>.</span></a>
+             
+            <ul>
+                <li><a href="/">HOME</a></li>
+                <li><a href="/course">COURSES</a></li>
+                <li><a href="/about" >ABOUT US</a></li>
+              
+                <li><a href="/signup"class="active">SIGN UP</a></li>
+            </ul>
+            
+            </nav>
+        </header>
+    <div class="container">
+        <form id="loginForm">
+            <h2>Login</h2>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+            <p>Don't have an account? <a href="/signup">Sign Up</a></p>
+            <div id="error-message"></div>
+        </form>
+    </div>
+   
+    <script>
+        const form = document.getElementById('loginForm');
+        const errorMessage = document.getElementById('error-message');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const email = form.email.value;
+            const password = form.password.value;
+            try {
+                const res = await fetch('/login', {
+                    method: 'POST',
+                    body: JSON.stringify({ email, password }),
+                    headers: { 'Content-Type': 'application/json' }
+                });
+                const data = await res.json();
+                console.log(data);
+                if (data.error) {
+                    errorMessage.textContent = data.error;
+                } else if (data.user) {
+                    location.assign('/');
+                }
+            } catch (error) {
+                console.log(error);
+                errorMessage.textContent = 'An error occurred. Please try again later.';
+            }
+        });
+    </script>
+</body>
+</html>
